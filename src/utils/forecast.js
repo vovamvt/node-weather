@@ -22,6 +22,7 @@ const forecast = (latitude, longitude, callback) => {
           body.current.feelslike +
           'degrees out.',
         'and humidity is' + body.current.weather_descriptions.humidity + '%',
+        +'nothing',
       );
     }
   });
